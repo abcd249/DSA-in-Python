@@ -1,3 +1,6 @@
+#This code uses Floyd's Tortoise and Hare (Cycle Detection) algorithm to find the duplicate number in the given list of integers. 
+#The comments provide a step-by-step explanation of how the algorithm works.
+
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         # Initialize two pointers, slow and fast, both pointing to the first element (index 0) of the array.
